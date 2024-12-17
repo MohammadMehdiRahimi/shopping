@@ -1,0 +1,71 @@
+#product1 {
+  text-align: center;
+}
+#product1 img {
+  width: 100%;
+  border-radius: 25px;
+}
+#product1 .pro {
+  max-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  margin: 20px 15px;
+}
+#product1 .pro:hover {
+  box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.05);
+}
+#product1 p {
+  color: var(--text-hover);
+  font-weight: 400;
+  font-size: 18px;
+}
+#product1 .des {
+  text-align: start;
+  margin-top: 15px;
+}
+#product1 .des span {
+  color: #717174;
+  font-size: 14px;
+}
+#product1 .des h5 {
+  font-size: 17px;
+  margin: 5px 0;
+}
+#product1 .des .stars i {
+  color: rgb(243, 181, 25);
+}
+
+#product1 .des h4 {
+  color: var(--green-1);
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+#product1 .pro .shop-cart {
+  background: #e8f6ea;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  color: var(--green-1);
+  transition: all 0.3s ease;
+}
+#product1 .pro .shop-cart:hover {
+  background: var(--green-1);
+  color: #e8f6ea;
+}
+
+#product1 .pro-container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(4, auto);
+}
