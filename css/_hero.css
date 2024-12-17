@@ -1,0 +1,20 @@
+#hero {
+  background-image: url("../img/hero4.png");
+  background-size: cover;
+  background-position: top 30% right 0;
+  height: 90vh;
+  padding: 0 80px;
+}
+#hero p {
+  color: var(--text-hover);
+}
+#hero h1 {
+  color: var(--text-hover);
+}
+#hero button {
+  background-image: url("../img/button.png");
+  background-repeat: no-repeat;
+  padding: 14px 80px 14px 65px;
+  font-weight: 700;
+  color: var(--text-hover);
+}
