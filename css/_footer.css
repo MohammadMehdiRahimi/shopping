@@ -1,0 +1,87 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  width: 100%;
+}
+footer .footer1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+footer .col li {
+  margin-bottom: 10px;
+}
+footer .col img {
+  margin-bottom: 20px;
+  width: 130px;
+}
+footer .col h4 {
+  color: rgb(78, 78, 78);
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .col .p p {
+  margin: 0;
+  color: rgba(122, 122, 122, 0.933);
+  font-size: 16px;
+}
+footer .col .p p b {
+  color: rgb(97, 97, 97);
+}
+footer .col ul.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer .col ul.icons li i {
+  color: rgba(122, 122, 122, 0.933);
+}
+footer .col ul {
+  padding: 0;
+}
+footer .col ul li a,
+footer .col p,
+footer .copy {
+  color: rgb(126, 125, 125);
+}
+footer .col div.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .col div.image div {
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
+  height: 60px;
+}
+footer .col div.image img {
+  padding-top: 2px;
+  width: 100%;
+  cursor: pointer;
+}
+footer .pay {
+  width: 80%;
+}
+footer .pay img {
+  width: 80%;
+}
+
+@media (max-width: 910px) {
+  footer .footer1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 100%;
+    justify-content: space-between;
+  }
+}

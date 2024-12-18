@@ -30,9 +30,26 @@
   background-color: #fff;
   outline: none;
   cursor: pointer;
-  transition: color , background 0.3s ease;
+  transition: color, background 0.3s ease;
 }
 #banner button:hover {
   background-color: var(--green-1);
   color: white;
+}
+
+@media (min-width:520px) and (max-width:1000px){
+  #banner h2 {
+  font-size: 30px;
+}
+#banner {
+  height: 35vh;
+}
+}
+@media  (max-width:520px){
+  #banner h2 {
+  font-size: 20px;
+}
+#banner {
+  height: 20vh;
+}
 }

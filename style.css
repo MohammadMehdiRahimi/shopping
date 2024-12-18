@@ -3,4 +3,12 @@
 @import url("./css/_hero.css");
 @import url("./css/_feature.css");
 @import url("./css/_product.css");
-@import url('./css/_banner.css');
+@import url("./css/_banner.css");
+@import url("./css/_sm-banner.css");
+@import url("./css/_banner3.css");
+@import url("./css/_news-letter.css");
+@import url("./css/_footer.css");
+
+body {
+  overflow-x: hidden !important;
+}
